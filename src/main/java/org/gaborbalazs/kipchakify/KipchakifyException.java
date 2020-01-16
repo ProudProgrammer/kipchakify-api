@@ -1,7 +1,7 @@
 package org.gaborbalazs.kipchakify;
 
 /**
- * Kipchakify exception for {@link Kipchakify} and {@link KipchakManager}.
+ * Kipchakify exception.
  */
 public class KipchakifyException extends RuntimeException {
 

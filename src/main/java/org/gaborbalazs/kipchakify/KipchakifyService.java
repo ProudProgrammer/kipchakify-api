@@ -1,12 +1,12 @@
 package org.gaborbalazs.kipchakify;
 
 /**
- * Kipchakify translator service.
+ * Service for kipchak translating.
  */
-public interface Kipchakify {
+public interface KipchakifyService {
 
     /**
-     * Kipchakify translator method.
+     * Kipchakify method for translate texts.
      * @param text is about to translate to kipchak.
      * @return String is the kipchakified text.
      * @throws KipchakifyException when given text is unkipchakifyable.
